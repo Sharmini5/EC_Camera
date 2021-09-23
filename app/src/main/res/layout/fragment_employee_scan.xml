@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/camera_fragment"
+    android:layout_width="400dp"
+    android:background="@drawable/bg_circle_grey"
+    android:layout_centerInParent="true"
+    android:layout_height="400dp">
+
+    <SurfaceView
+        android:id="@+id/captured_photo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+
+    <TextView
+        android:id="@+id/photo_button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_above="@+id/button_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="ok"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/centre_login_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:visibility="visible"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/centre_login_button"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout >

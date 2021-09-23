@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EC_Camera</string>
+    <string name="emp_connect">Employee Connect</string>
+    <string name="scan_to_login">Scan your face to login</string>
+    <string name="configure">Configure</string>
+    <string name="tap_to_scan">Tap to Scan</string>
+    <string name="next">Next</string>
+    <string name="empid">Employee ID</string>
+    <string name="login_pin_code">Signin via PIN</string>
+    <string name="back">Back</string>
+    <string name="place_face">Place your face on the circle</string>
+    <string name="error_detcet">Failed to recognize!</string>
+    <string name="error_detcet_again">Tap here to try again</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo_capture">Photo Captured!</string>
+    <string name="recognizing">Recognizing...</string>
+    <string name="home">Welcome Back!</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="emp_number">ECN954</string>
+    <string name="login_time">Loging Time :</string>
+    <string name="time">10.20 a.m.</string>
+    <string name="confrim">Confrim</string>
+    <string name="retake">Retake</string>
+    <string name="enter_empid">Enter Employee ID</string>
+    <string name="configure_desc">Enter the credentials to sign up</string>
+    <string name="credentials">Enter credentials</string>
+    <string name="captureface">Capture face</string>
+    <string name="setupComplete">Setup complete</string>
+</resources>
