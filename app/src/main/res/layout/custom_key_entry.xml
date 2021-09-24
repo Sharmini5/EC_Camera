@@ -47,6 +47,7 @@
                 android:hint="@string/enter_empid"
                 android:textColorHint="#4DD2D2D2"
                 android:inputType="text"
+                android:textSize="18sp"
                 android:minWidth="40dp" />
 
         </LinearLayout>
