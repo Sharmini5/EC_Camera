@@ -14,16 +14,17 @@
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/font/lato_regular.xml" value="0.284375" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_configure_setting.xml" value="0.128125" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_fail_to_detect.xml" value="0.23777173913043478" />
+        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_home.xml" value="0.22282608695652173" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_login_with_pin.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_open_camera.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_photo_loading.xml" value="0.1265625" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_place_face.xml" value="0.24456521739130435" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/activity_scan_face.xml" value="0.2" />
-        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/custom_key_entry.xml" value="0.37846153846153846" />
-        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/custom_keyboard.xml" value="0.48520710059171596" />
+        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/custom_key_entry.xml" value="0.3700980392156863" />
+        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/custom_keyboard.xml" value="0.2696025778732546" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/fragment_employee_id_entry.xml" value="0.128125" />
-        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/fragment_employee_scan.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/fragment_employee_scan.xml" value="0.1" />
         <entry key="..\:/Users/Sharmi/AndroidStudioProjects/EC_Camera/app/src/main/res/layout/fragment_pin_code_entry.xml" value="0.1140625" />
       </map>
     </option>

@@ -58,6 +58,15 @@
         android:layout_centerInParent="true"
         android:background="@android:color/transparent">
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading_view"/>
+
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="300dp"
@@ -66,11 +75,14 @@
             android:background="@drawable/tap_to_scan_icon">
 
 
-            <ImageView
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_tab_view"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_tap_scan" />
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/tab_view" />
 
             <TextView
                 android:layout_width="match_parent"

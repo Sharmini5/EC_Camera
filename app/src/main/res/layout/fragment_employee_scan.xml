@@ -10,7 +10,7 @@
     <SurfaceView
         android:id="@+id/captured_photo"
         android:layout_width="400dp"
-        android:layout_height="400dp"/>
+        android:layout_height="400dp" />
 
     <TextView
         android:id="@+id/photo_button"

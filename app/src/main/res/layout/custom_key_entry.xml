@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
 
@@ -45,42 +46,62 @@
                 android:fontFamily="@font/nunito_semibold"
                 android:gravity="center"
                 android:hint="@string/enter_empid"
-                android:textColorHint="#4DD2D2D2"
                 android:inputType="text"
-                android:textSize="18sp"
-                android:minWidth="40dp" />
+                android:textColorHint="#4DD2D2D2"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
 
-
     </RelativeLayout>
-
-    <Button
-        android:id="@+id/next_pin"
+    <RelativeLayout
+        android:id="@+id/rl_select_next"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/button_green"
         android:backgroundTint="#159F54"
-        android:gravity="center"
-        android:text="@string/next"
-        android:textColor="@color/white"
-        android:textSize="14sp" />
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lbl_select_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/next"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/img_date_next"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_right_arrow"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
 
     <com.example.ec_camera.MyKeyboard
         android:id="@+id/keyboardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
         android:visibility="visible" />
 
 </LinearLayout>

@@ -13,10 +13,6 @@ import android.view.Surface;
 
 import java.util.List;
 
-/**
- * Created by Nguyen on 5/20/2016.
- */
-
 public class Util {
     // Orientation hysteresis amount used in rounding, in degrees
     private static final int ORIENTATION_HYSTERESIS = 5;

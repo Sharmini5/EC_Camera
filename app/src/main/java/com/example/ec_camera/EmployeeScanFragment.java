@@ -107,11 +107,12 @@ public class EmployeeScanFragment extends Fragment implements SurfaceHolder.Call
         credentialsProvider = new CognitoCredentialsProvider(Constants.POOLID, Regions.valueOf(Constants.REGION));
 
         amazonRekognitionClient = new AmazonRekognitionClient(credentialsProvider);
-        amazonRekognitionClient.setEndpoint("uploadfaces.s3.us-east-1.amazonaws.com");
+        amazonRekognitionClient.setEndpoint("uploadfaces.us-east-1.amazonaws.com");
         mView = (SurfaceView) rootView.findViewById(R.id.captured_photo);
 
         SurfaceHolder holder = mView.getHolder();
         holder.addCallback(this);
+        holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
         // Now create the OverlayView:
         mFaceView = new FaceOverlayView(getActivity().getBaseContext());
@@ -126,13 +127,6 @@ public class EmployeeScanFragment extends Fragment implements SurfaceHolder.Call
             public void onClick(View v) {
 
                 btnClicked = true;
-
-                  /*  progressDialog = new ProgressDialog(getActivity());
-                    progressDialog.setMessage("Authenticating ..."); // Setting Message
-                    progressDialog.setTitle("Educator Camera Login"); // Setting Title
-                    progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER); // Progress Dialog Style Spinner
-                    progressDialog.show(); // Display Progress Dialog
-                    progressDialog.setCancelable(false);*/
 
                 System.out.println("Camera Login :Capture");
                 isCancelLoginRequest = false;
